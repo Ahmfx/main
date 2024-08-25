@@ -20,7 +20,10 @@ def usernames():
     i = ''.join(choice('i') for i in range(1)) 
     e = ''.join(choice('8') for i in range(1))
     d = ''.join(choice('d') for i in range(1)) 
-    u1 = g + k + z + e + e + e
+    h = ''.join(choice('h') for i in range(1)) 
+    a = ''.join(choice('a') for i in range(1)) 
+    o = ''.join(choice('o') for i in range(1)) 
+    u1 = h + a + o + e + e + e
     u2 = g + g + k + e + e + e
     u3 = i + d + n + e + e + e
     s = u1,u2,u3
